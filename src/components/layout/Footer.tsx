@@ -13,10 +13,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-6">
-            <div className="relative mb-2">
-              <span className="text-3xl font-bold font-serif text-white tracking-wide">
-                Khogesh da Travel Agency
-              </span>
+            <div className="relative mb-4 w-[180px] h-[75px] bg-white p-2 rounded-md">
+              <Image
+                src="/logo.jpeg"
+                alt="Sneha Tours & Travels"
+                fill
+                className="object-contain"
+              />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed pr-4">
               Your trusted partner for safe and seamless travel in the hills of North Bengal and Sikkim. Comfortable journeys, experienced drivers.
@@ -94,7 +97,7 @@ export function Footer() {
 
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Khogesh da Travel Agency. All Rights Reserved.
+            © {new Date().getFullYear()} Sneha Tours & Travels. All Rights Reserved.
           </p>
           <div className="flex gap-6 text-sm text-gray-400">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>

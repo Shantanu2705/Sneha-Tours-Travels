@@ -18,7 +18,7 @@ export default function AboutUs() {
             <div className="space-y-8 text-lg text-mountain-gray leading-relaxed">
               <SectionHeading title="Your Trusted Travel Partner" />
               <p>
-                Khogesh da Travel Agency is your trusted partner for safe and seamless travel in the hills of North Bengal and Sikkim. Whether you're heading to the serene landscapes of Darjeeling, the vibrant capital of Gangtok, or exploring offbeat gems like Kalimpong, Pelling, or Lachung, we ensure a stress-free journey right from Bagdogra Airport (IXB) to your destination.
+                Sneha Tours & Travels is your trusted partner for safe and seamless travel in the hills of North Bengal and Sikkim. Whether you're heading to the serene landscapes of Darjeeling, the vibrant capital of Gangtok, or exploring offbeat gems like Kalimpong, Pelling, or Lachung, we ensure a stress-free journey right from Bagdogra Airport (IXB) to your destination.
               </p>
               <p>
                 With a fleet of well-maintained vehicles, courteous drivers, and a commitment to punctuality, we serve solo travelers, families, and groups alike — with a focus on comfort, safety, and transparency.
@@ -44,7 +44,7 @@ export default function AboutUs() {
         <div className="relative z-10 max-w-4xl mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8">Ready to Explore North Bengal and Sikkim?</h2>
           <p className="text-xl text-gray-300 font-light mb-12 leading-relaxed">
-            At Khogesh da Travel Agency, we're here to help you explore the majestic hills, valleys, and highlands of Sikkim and Darjeeling without any hassle. Whether you need a comfortable ride to your hotel or a guided tour to the top destinations, we've got you covered. Contact Us today to book your cab or tour package and start your journey with confidence.
+            At Sneha Tours & Travels, we're here to help you explore the majestic hills, valleys, and highlands of Sikkim and Darjeeling without any hassle. Whether you need a comfortable ride to your hotel or a guided tour to the top destinations, we've got you covered. Contact Us today to book your cab or tour package and start your journey with confidence.
           </p>
           <Link href="/contact-us">
             <Button size="lg" className="bg-white text-primary hover:bg-gray-100 font-semibold px-10 h-14">

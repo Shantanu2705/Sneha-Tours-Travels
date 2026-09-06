@@ -174,7 +174,7 @@ export default function Home() {
             <div className="relative h-[700px] rounded-[2rem] overflow-hidden shadow-2xl group">
               <Image 
                 src="/images/home_fleet.png" 
-                alt="Travel with Khogesh da Travel Agency" 
+                alt="Travel with Sneha Tours & Travels" 
                 fill 
                 className="object-cover transition-transform duration-1000 group-hover:scale-105"
               />

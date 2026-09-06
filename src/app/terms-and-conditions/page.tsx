@@ -14,7 +14,7 @@ export default function TermsAndConditionsPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100">
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-charcoal mb-4 mt-8 first:mt-0">1. Agreement to Terms</h2>
-            <p className="text-mountain-gray text-lg leading-relaxed mb-8">These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Khogesh da Travel Agency ("we," "us" or "our"), concerning your access to and use of our website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto.</p>
+            <p className="text-mountain-gray text-lg leading-relaxed mb-8">These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Sneha Tours & Travels ("we," "us" or "our"), concerning your access to and use of our website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto.</p>
 
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-charcoal mb-4 mt-8">2. Booking and Reservations</h2>
             <ul className="list-disc ml-6 space-y-3 text-mountain-gray text-lg leading-relaxed mb-8">

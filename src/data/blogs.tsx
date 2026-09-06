@@ -14,7 +14,7 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: 'book-car-rental-in-bagdogra',
-    title: 'Book Car Rental in Bagdogra – Khogesh da Travel Agency | Safe & Reliable Cab Booking',
+    title: 'Book Car Rental in Bagdogra – Sneha Tours & Travels | Safe & Reliable Cab Booking',
     category: 'Travel Guide',
     date: 'Aug 16, 2026',
     readTime: '6 min read',
@@ -23,20 +23,20 @@ export const blogPosts: BlogPost[] = [
     content: (
       <div className="space-y-8 text-lg text-mountain-gray leading-relaxed">
         <p>
-          If you're planning a vacation to Darjeeling, Sikkim, Dooars, or elsewhere in North Bengal, choosing a reliable car rental in Bagdogra is one of the first steps toward a pleasant and stress-free travel. Whether you're coming at Bagdogra Airport or starting in the local town, Khogesh da Travel Agency is here to make your trip simple, comfortable, and budget-friendly.
+          If you're planning a vacation to Darjeeling, Sikkim, Dooars, or elsewhere in North Bengal, choosing a reliable car rental in Bagdogra is one of the first steps toward a pleasant and stress-free travel. Whether you're coming at Bagdogra Airport or starting in the local town, Sneha Tours & Travels is here to make your trip simple, comfortable, and budget-friendly.
         </p>
         
-        <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">Why Choose Khogesh da Travel Agency for Car Rental in Bagdogra?</h2>
+        <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">Why Choose Sneha Tours & Travels for Car Rental in Bagdogra?</h2>
         <p>
           The stunning hills and valleys of Sikkim and North Bengal may be reached from Bagdogra. Commonly known as the "Gateway to the Himalayas," it is among the most practical points of entry for tourists going to places like Darjeeling, Gangtok, Kalimpong, Pelling, and Bhutan.
         </p>
         <p>
-          Choosing a car rental in Bagdogra gives you freedom and choice — no waiting for shared taxis, no rush of crowded buses. You are free to set your own hours, take breaks for beautiful scenery, and go at your own speed. Whether you're travelling for a weekend getaway, business trip, or family holiday, booking a taxi from Khogesh da Travel Agency guarantees comfort and convenience all the way.
+          Choosing a car rental in Bagdogra gives you freedom and choice — no waiting for shared taxis, no rush of crowded buses. You are free to set your own hours, take breaks for beautiful scenery, and go at your own speed. Whether you're travelling for a weekend getaway, business trip, or family holiday, booking a taxi from Sneha Tours & Travels guarantees comfort and convenience all the way.
         </p>
 
         <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">Our Car Rental Service in Bagdogra</h2>
         <p>
-          At Khogesh da Travel Agency, we take pride in providing a dependable and affordable professional taxi service in Bagdogra. From airport pickups to out-of-town trips, our services are made to accommodate all of your travel requirements.
+          At Sneha Tours & Travels, we take pride in providing a dependable and affordable professional taxi service in Bagdogra. From airport pickups to out-of-town trips, our services are made to accommodate all of your travel requirements.
         </p>
         
         <h3 className="text-xl font-bold text-charcoal mt-8 mb-4">Airport Transfers</h3>
@@ -54,7 +54,7 @@ export const blogPosts: BlogPost[] = [
         <h3 className="text-xl font-bold text-charcoal mt-8 mb-4">Customised Tour Packages</h3>
         <p>Want a customised trip plan? We can create travel packages that suit your tastes, including hotels, attractions, and transportation, so you may have a stress-free holiday.</p>
 
-        <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">Why Khogesh da Travel Agency is the Best Choice</h2>
+        <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">Why Sneha Tours & Travels is the Best Choice</h2>
         <ul className="list-disc pl-6 space-y-4">
           <li><strong>Affordable pricing:</strong> We believe that travel should not be expensive. That is why we provide affordable cabs in Bagdogra with clear prices – no hidden fees or surprises.</li>
           <li><strong>Experienced drivers:</strong> Our drivers are natives who are deeply familiar with the area and roads. They offer a secure and comfortable ride, whether you're travelling to a hill station or an unusual location.</li>
@@ -76,7 +76,7 @@ export const blogPosts: BlogPost[] = [
         </ul>
         <p>Each route offers stunning landscapes, tea gardens and hill views — making the journey just as beautiful as the destination.</p>
 
-        <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">How to Book a Rental Car from Khogesh da Travel Agency</h2>
+        <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">How to Book a Rental Car from Sneha Tours & Travels</h2>
         <div className="space-y-6">
           <div>
             <h4 className="font-bold text-charcoal">Visit Our Website</h4>
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
 
         <div className="bg-primary/5 p-8 rounded-2xl my-10 border border-primary/10">
           <h2 className="text-2xl font-serif font-bold text-charcoal mb-4">Affordable Cab in Bagdogra: Comfort meets Convenience</h2>
-          <p className="text-mountain-gray">Khogesh da Travel Agency assures that every ride, whether for a solitary traveler, a family, or a corporate group, is comfortable, prompt, and economical. Our objective is simple: deliver the best car rental in Bagdogra by combining professional service with local hospitality.</p>
+          <p className="text-mountain-gray">Sneha Tours & Travels assures that every ride, whether for a solitary traveler, a family, or a corporate group, is comfortable, prompt, and economical. Our objective is simple: deliver the best car rental in Bagdogra by combining professional service with local hospitality.</p>
         </div>
 
         <h2 className="text-3xl font-serif font-bold text-charcoal mt-12 mb-6">Frequently Asked Questions (FAQs)</h2>
@@ -113,7 +113,7 @@ export const blogPosts: BlogPost[] = [
           </div>
           <div>
             <h4 className="font-bold text-charcoal text-lg">How much does a taxi cost in Bagdogra?</h4>
-            <p className="mb-4">The cost of renting a car in Bagdogra depends on your destination, travel duration and vehicle type. Here are the starting prices offered by Khogesh da Travel Agency:</p>
+            <p className="mb-4">The cost of renting a car in Bagdogra depends on your destination, travel duration and vehicle type. Here are the starting prices offered by Sneha Tours & Travels:</p>
             <div className="overflow-x-auto rounded-xl border border-gray-200">
               <table className="w-full text-left border-collapse">
                 <thead>
@@ -156,7 +156,7 @@ export const blogPosts: BlogPost[] = [
             <p>Yes, we provide packages for local sightseeing as well as outstation trips to Darjeeling, Gangtok, Kalimpong, the Dooars, and Bhutan. You can customise your trip to what you like.</p>
           </div>
           <div>
-            <h4 className="font-bold text-charcoal text-lg">How can I book a cab with Khogesh da Travel Agency?</h4>
+            <h4 className="font-bold text-charcoal text-lg">How can I book a cab with Sneha Tours & Travels?</h4>
             <p>You can book through our website, call us directly, visit our office or message us via WhatsApp.</p>
           </div>
         </div>

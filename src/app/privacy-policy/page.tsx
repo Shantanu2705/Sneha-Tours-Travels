@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100">
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-charcoal mb-4 mt-8 first:mt-0">1. Introduction</h2>
-            <p className="text-mountain-gray text-lg leading-relaxed mb-8">Welcome to Khogesh da Travel Agency. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.</p>
+            <p className="text-mountain-gray text-lg leading-relaxed mb-8">Welcome to Sneha Tours & Travels. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.</p>
 
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-charcoal mb-4 mt-8">2. The Data We Collect About You</h2>
             <p className="text-mountain-gray text-lg leading-relaxed mb-4">We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:</p>

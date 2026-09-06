@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Khogesh da Travel Agency - Reliable Travel in North Bengal & Sikkim",
+  title: "Sneha Tours & Travels - Reliable Travel in North Bengal & Sikkim",
   description: "Your trusted partner for safe and seamless travel in the hills of North Bengal and Sikkim. Comfortable journeys, experienced drivers.",
 };
 

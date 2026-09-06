@@ -75,11 +75,16 @@ export function Navbar() {
       )}
     >
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center w-full">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-2">
-              <div className="relative w-[180px] h-[75px] flex items-center justify-center transition-all mix-blend-multiply">
-                <div className="relative w-full h-full">
+              <svg width="0" height="0" className="absolute">
+                <filter id="remove-white" colorInterpolationFilters="sRGB">
+                  <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -1 -1 -1 0 3" />
+                </filter>
+              </svg>
+              <div className="relative w-[180px] h-[75px] flex items-center justify-center transition-all">
+                <div className="relative w-full h-full" style={{ filter: 'url(#remove-white)' }}>
                   <Image
                     src="/logo.jpeg"
                     alt="Sneha Tours & Travels"
@@ -92,7 +97,7 @@ export function Navbar() {
           </div>
 
           {/* Desktop Nav */}
-          <nav className="hidden xl:flex items-center justify-center space-x-4 xl:space-x-6 absolute left-1/2 transform -translate-x-1/2 w-max">
+          <nav className="hidden xl:flex flex-1 items-center justify-end pr-8 space-x-6">
             {navLinks.map((link) => (
               <div key={link.name} className="relative group">
                 <Link
@@ -130,15 +135,18 @@ export function Navbar() {
                 )}
               </div>
             ))}
-            <Link href="/contact-us" className="flex-shrink-0 ml-4">
+          </nav>
+          
+          <div className="hidden xl:flex items-center flex-shrink-0">
+            <Link href="/contact-us">
               <Button variant="primary" size="md" className="whitespace-nowrap">
                 Book Your Cab
               </Button>
             </Link>
-          </nav>
+          </div>
 
           {/* Mobile Menu Button */}
-          <div className="xl:hidden flex items-center">
+          <div className="xl:hidden flex items-center flex-shrink-0">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className={cn(

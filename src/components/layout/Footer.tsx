@@ -13,13 +13,20 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-6">
-            <div className="relative mb-4 w-[220px] h-[95px] flex items-center justify-center mix-blend-screen invert opacity-90 hover:opacity-100 transition-opacity">
-              <Image
-                src="/logo.jpeg"
-                alt="Sneha Tours & Travels"
-                fill
-                className="object-contain"
-              />
+            <svg width="0" height="0" className="absolute">
+              <filter id="remove-white-footer" colorInterpolationFilters="sRGB">
+                <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -1 -1 -1 0 3" />
+              </filter>
+            </svg>
+            <div className="relative mb-4 w-[220px] h-[95px] flex items-center justify-center opacity-90 hover:opacity-100 transition-opacity">
+              <div className="relative w-full h-full" style={{ filter: 'url(#remove-white-footer) drop-shadow(0 0 4px rgba(255,255,255,0.4))' }}>
+                <Image
+                  src="/logo.jpeg"
+                  alt="Sneha Tours & Travels"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed pr-4">
               Your trusted partner for safe and seamless travel in the hills of North Bengal and Sikkim. Comfortable journeys, experienced drivers.

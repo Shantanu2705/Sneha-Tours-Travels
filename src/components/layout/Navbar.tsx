@@ -78,7 +78,7 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-2">
-              <div className="relative w-[130px] h-[52px] bg-white rounded-md p-1.5 shadow-md flex items-center justify-center transition-all">
+              <div className="relative w-[180px] h-[75px] flex items-center justify-center transition-all mix-blend-multiply">
                 <div className="relative w-full h-full">
                   <Image
                     src="/logo.jpeg"

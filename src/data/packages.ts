@@ -267,5 +267,33 @@ export const packages: TourPackage[] = [
       }
     ],
     category: 'Darjeeling'
+  },
+  {
+    id: 'gorumara-national-park-safari',
+    title: 'Gorumara National Park Safari & Stay',
+    duration: '2 Nights / 3 Days',
+    location: 'Lataguri • Gorumara National Park',
+    image: '/images/pkg_dooars_forest.jpg',
+    description: 'Immerse yourself in the wild beauty of Gorumara National Park. Experience thrilling jungle safaris and stay amidst dense forests.',
+    longDescription: 'Immerse yourself in the wild beauty of Gorumara National Park with Sneha Tours & Travels. Experience thrilling jungle safaris, spot exotic wildlife like the Indian Rhinoceros and elephants, and stay in beautiful forest resorts surrounded by lush greenery.\n\nPackage Cost (Per Head):\n8 Persons – ₹4,500\n6 Persons – ₹5,200\n4 Persons – ₹6,000',
+    highlights: ['Gorumara Jungle Safari', 'Jatraprasad Watch Tower', 'Murti River'],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival at Lataguri',
+        description: 'Pickup from NJP / Bagdogra and transfer to your resort in Lataguri. Evening at leisure to enjoy the sounds of the forest.'
+      },
+      {
+        day: 2,
+        title: 'Jungle Safari & Watchtowers',
+        description: 'Early morning or afternoon Jeep Safari inside Gorumara National Park. Visit Jatraprasad or Medla watchtower for wildlife viewing. Evening visit to the Murti River.'
+      },
+      {
+        day: 3,
+        title: 'Departure',
+        description: 'After breakfast, check out and transfer back to NJP / Bagdogra for your onward journey.'
+      }
+    ],
+    category: 'Dooars'
   }
 ];

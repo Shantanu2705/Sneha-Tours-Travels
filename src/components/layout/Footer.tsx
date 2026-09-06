@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-6">
-            <div className="relative mb-4 w-[180px] h-[75px] bg-white p-2 rounded-md">
+            <div className="relative mb-4 w-[220px] h-[95px] flex items-center justify-center mix-blend-screen invert opacity-90 hover:opacity-100 transition-opacity">
               <Image
                 src="/logo.jpeg"
                 alt="Sneha Tours & Travels"

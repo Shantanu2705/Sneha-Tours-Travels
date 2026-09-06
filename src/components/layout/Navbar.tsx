@@ -78,15 +78,10 @@ export function Navbar() {
         <div className="flex justify-between items-center w-full">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-2">
-              <svg width="0" height="0" className="absolute">
-                <filter id="remove-white" colorInterpolationFilters="sRGB">
-                  <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -1 -1 -1 0 3" />
-                </filter>
-              </svg>
               <div className="relative w-[180px] h-[75px] flex items-center justify-center transition-all">
-                <div className="relative w-full h-full" style={{ filter: 'url(#remove-white)' }}>
+                <div className="relative w-full h-full">
                   <Image
-                    src="/logo.jpeg"
+                    src="/logo.png"
                     alt="Sneha Tours & Travels"
                     fill
                     className="object-contain"

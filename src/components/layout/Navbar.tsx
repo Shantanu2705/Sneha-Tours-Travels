@@ -80,7 +80,7 @@ export function Navbar() {
           </div>
 
           {/* Desktop Nav */}
-          <nav className="hidden xl:flex flex-1 items-center justify-end pr-8 space-x-6">
+          <nav className="hidden xl:flex flex-1 items-center justify-center space-x-6">
             {navLinks.map((link) => (
               <div key={link.name} className="relative group">
                 <Link

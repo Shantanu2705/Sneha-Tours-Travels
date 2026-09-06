@@ -73,13 +73,15 @@ export function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-2">
-              <div className="relative w-[120px] h-[50px]">
-                <Image
-                  src="/logo.jpeg"
-                  alt="Sneha Tours & Travels"
-                  fill
-                  className="object-contain"
-                />
+              <div className="relative w-[130px] h-[52px] bg-white rounded-md p-1.5 shadow-md flex items-center justify-center transition-all">
+                <div className="relative w-full h-full">
+                  <Image
+                    src="/logo.jpeg"
+                    alt="Sneha Tours & Travels"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
               </div>
             </Link>
           </div>

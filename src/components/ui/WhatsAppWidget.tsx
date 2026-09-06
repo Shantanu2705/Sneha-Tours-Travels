@@ -32,12 +32,14 @@ export function WhatsAppWidget() {
             {/* Header */}
             <div className="bg-[#00695c] px-4 py-3 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="relative w-12 h-12 bg-white rounded-full border-2 border-white flex-shrink-0 flex items-center justify-center">
-                  <span className="text-xl font-bold text-[#00695c]">K</span>
-                  <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-white"></div>
+                <div className="relative">
+                  <div className="relative w-12 h-12 bg-white rounded-full border-2 border-white flex-shrink-0 flex items-center justify-center overflow-hidden shadow-sm">
+                    <Image src="/logo.png" alt="Sneha Tours & Travels" fill className="object-contain p-1" />
+                  </div>
+                  <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-white z-10"></div>
                 </div>
                 <div>
-                  <h3 className="text-white font-bold text-[17px] leading-tight">Shuvo Saha</h3>
+                  <h3 className="text-white font-bold text-[17px] leading-tight">Sneha Tours & Travels</h3>
                   <p className="text-white/80 text-sm">Online</p>
                 </div>
               </div>

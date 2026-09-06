@@ -88,7 +88,7 @@ export const blogPosts: BlogPost[] = [
           </div>
           <div>
             <h4 className="font-bold text-charcoal">Visit Our Office</h4>
-            <p>Feel free to drop by our office in Lataguri for assistance with your booking. Our friendly team will be happy to help you arrange the perfect trip. Address - Lataguri, Neora More, Jalpaiguri, West Bengal - 735219</p>
+            <p>Feel free to drop by our office in Lataguri for assistance with your booking. Our friendly team will be happy to help you arrange the perfect trip. Address - Lataguri, Neora More, Gorumara National Park, Jalpaiguri, West Bengal - 735219</p>
           </div>
           <div>
             <h4 className="font-bold text-charcoal">WhatsApp or Message Us</h4>

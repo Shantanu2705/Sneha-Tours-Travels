@@ -5,7 +5,7 @@ import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-// Coordinates for Lataguri, Neora More, Jalpaiguri, West Bengal - 735219
+// Coordinates for Lataguri, Neora More, Gorumara National Park, Jalpaiguri, West Bengal - 735219
 const position: [number, number] = [26.7119, 88.7562];
 
 const createCustomIcon = () => {

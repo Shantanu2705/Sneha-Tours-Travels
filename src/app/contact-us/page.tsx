@@ -108,7 +108,7 @@ export default function ContactUs() {
       {/* Map Section */}
       <section className="h-[500px] w-full relative bg-gray-100 overflow-hidden">
         <iframe 
-          src={`https://maps.google.com/maps?q=${encodeURIComponent("Lataguri, Neora More, Jalpaiguri, West Bengal - 735219")}&t=&z=17&ie=UTF8&iwloc=B&output=embed`}
+          src={`https://maps.google.com/maps?q=${encodeURIComponent("Lataguri, Neora More, Gorumara National Park, Jalpaiguri, West Bengal - 735219")}&t=&z=17&ie=UTF8&iwloc=B&output=embed`}
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 

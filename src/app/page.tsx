@@ -19,8 +19,8 @@ export default function Home() {
       <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <Image 
-            src="/images/home_hero.png" 
-            alt="Himalayan Mountains" 
+            src="/images/dooars_hero.jpg" 
+            alt="Dooars Landscape" 
             fill 
             className="object-cover" 
             priority
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-16 animate-in fade-in slide-in-from-bottom-8 duration-1000">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 drop-shadow-xl leading-tight">
-            Discover Sikkim & Darjeeling
+            Discover Sikkim, Darjeeling & Dooars
             <span className="block text-accent mt-4">Like never before!</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto font-light drop-shadow-md">

@@ -7,17 +7,15 @@ import { usePathname } from 'next/navigation';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
-import { destinations } from '@/data/destinations';
 import { packages } from '@/data/packages';
-import { blogPosts } from '@/data/blogs';
 
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about-us' },
   { 
-    name: 'Destination', 
-    href: '/destination',
-    subLinks: destinations.map(d => ({ name: d.name, href: `/destination/${d.id}` }))
+    name: 'Dooars Tour Package', 
+    href: '/dooars-tour-package',
+    subLinks: packages.filter(p => p.category === 'Dooars').map(p => ({ name: p.title, href: `/packages/${p.id}` }))
   },
   { 
     name: 'Sikkim Tour Package', 
@@ -28,16 +26,6 @@ const navLinks = [
     name: 'Darjeeling Tour Package', 
     href: '/darjeeling-tour-package',
     subLinks: packages.filter(p => p.category === 'Darjeeling').map(p => ({ name: p.title, href: `/packages/${p.id}` }))
-  },
-  { 
-    name: 'Dooars Tour Package', 
-    href: '/dooars-tour-package',
-    subLinks: packages.filter(p => p.category === 'Dooars').map(p => ({ name: p.title, href: `/packages/${p.id}` }))
-  },
-  { 
-    name: 'Blog', 
-    href: '/blog',
-    subLinks: blogPosts.map(b => ({ name: b.title, href: `/blog/${b.id}` }))
   },
   { name: 'Contact Us', href: '/contact-us' },
 ];

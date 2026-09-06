@@ -5,8 +5,8 @@ import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-// Coordinates for M8X9+C6X, Bagdogra Bihar More
-const position: [number, number] = [26.6994, 88.3143];
+// Coordinates for Lataguri, Neora More, Jalpaiguri, West Bengal - 735219
+const position: [number, number] = [26.7119, 88.7562];
 
 const createCustomIcon = () => {
   return L.divIcon({

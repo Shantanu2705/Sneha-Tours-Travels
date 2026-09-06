@@ -1,8 +1,8 @@
 export const contactInfo = {
-  phone: "+91 81598 28800",
-  phones: ["+91 81598 28800", "+91 62071 69779"],
-  whatsapp: "+91 81598 28800",
-  email: "support@snehatoursandtravels.com",
-  emails: ["support@snehatoursandtravels.com", "info@snehatoursandtravels.com"],
-  address: "Bihar More, Bagdogra Bihar More, M8X9+C6X, NH 31C, Uttar Bagdogra, Bagdogra, West Bengal 734014",
+  phone: "+91 86700 52136",
+  phones: ["+91 86700 52136"],
+  whatsapp: "+91 86700 52136",
+  email: "snehatoursandtravels2024@gmail.com",
+  emails: ["snehatoursandtravels2024@gmail.com"],
+  address: "Lataguri, Neora More, Jalpaiguri, West Bengal - 735219",
 };

@@ -108,7 +108,7 @@ export default function ContactUs() {
       {/* Map Section */}
       <section className="h-[500px] w-full relative bg-gray-100 overflow-hidden">
         <iframe 
-          src={`https://maps.google.com/maps?q=26.6986037,88.3181049+(${encodeURIComponent("Bihar More, Bagdogra Bihar More, M8X9+C6X, NH 31C, Uttar Bagdogra, Bagdogra, West Bengal 734014")})&t=&z=17&ie=UTF8&iwloc=B&output=embed`}
+          src={`https://maps.google.com/maps?q=${encodeURIComponent("Lataguri, Neora More, Jalpaiguri, West Bengal - 735219")}&t=&z=17&ie=UTF8&iwloc=B&output=embed`}
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 

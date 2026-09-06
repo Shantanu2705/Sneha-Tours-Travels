@@ -84,11 +84,11 @@ export const blogPosts: BlogPost[] = [
           </div>
           <div>
             <h4 className="font-bold text-charcoal">Call Us</h4>
-            <p>If you prefer a more personal touch you can call our customer service team. They’ll help you choose the right vehicle and plan your itinerary. Book your trip - +91 81598 28800 | +91 62071 69779</p>
+            <p>If you prefer a more personal touch you can call our customer service team. They’ll help you choose the right vehicle and plan your itinerary. Book your trip - +91 86700 52136</p>
           </div>
           <div>
             <h4 className="font-bold text-charcoal">Visit Our Office</h4>
-            <p>Feel free to drop by our office in Bagdogra for assistance with your booking. Our friendly team will be happy to help you arrange the perfect trip. Address - Bihar more, Bagdogra, West Bengal 734014</p>
+            <p>Feel free to drop by our office in Lataguri for assistance with your booking. Our friendly team will be happy to help you arrange the perfect trip. Address - Lataguri, Neora More, Jalpaiguri, West Bengal - 735219</p>
           </div>
           <div>
             <h4 className="font-bold text-charcoal">WhatsApp or Message Us</h4>

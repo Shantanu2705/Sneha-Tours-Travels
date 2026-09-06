@@ -1,4 +1,4 @@
-﻿export interface TourPackage {
+export interface TourPackage {
   id: string;
   title: string;
   duration: string;
@@ -169,7 +169,7 @@ export const packages: TourPackage[] = [
     title: 'Dooars Explorer Package',
     duration: '4 Nights / 5 Days',
     location: 'Lataguri • Chilapata',
-    image: '/images/home_hero.png',
+    image: '/images/pkg_dooars_forest.jpg',
     description: 'Forests, Hills, Rivers, and Wildlife. Experience the diverse beauty of Dooars.',
     longDescription: 'Experience the diverse beauty of Dooars with Sneha Tours & Travels. From the lush forests of Gorumara and Chilapata to scenic rivers, tea gardens and Himalayan foothills, this itinerary combines nature, adventure and cultural exploration into one memorable getaway.\n\nPackage Cost (Per Head):\n8 Persons – ₹9,000\n6 Persons – ₹10,300\n4 Persons – ₹11,500',
     highlights: ['Gorumara National Park', 'Chilapata Forest', 'Jaldhaka & Bindu'],
@@ -207,7 +207,7 @@ export const packages: TourPackage[] = [
     title: 'Dooars Tour Package',
     duration: '3 Nights / 4 Days',
     location: 'Lataguri • Dooars',
-    image: '/images/home_fleet.png',
+    image: '/images/pkg_dooars_tea.jpg',
     description: 'Experience the untouched beauty of Dooars, where dense forests and flowing rivers create the perfect nature getaway.',
     longDescription: 'Experience the untouched beauty of Dooars, where dense forests, flowing rivers, rolling tea gardens and picturesque hill landscapes come together to create the perfect nature getaway.\n\nPackage Cost (Per Head):\n8 Persons – ₹6,900\n6 Persons – ₹7,800\n4 Persons – ₹8,600',
     highlights: ['Lataguri', 'Samsing & Suntalekhola', 'Buxa & Jayanti (Optional)'],

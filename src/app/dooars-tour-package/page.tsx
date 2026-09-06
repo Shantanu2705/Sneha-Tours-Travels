@@ -1,4 +1,4 @@
-﻿import { PageHero } from '@/components/ui/PageHero';
+import { PageHero } from '@/components/ui/PageHero';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { PackageCard } from '@/components/ui/PackageCard';
 import { packages } from '@/data/packages';
@@ -11,7 +11,7 @@ export default function DooarsTourPackage() {
       <PageHero 
         title="Dooars Tour Packages" 
         subtitle="Explore the untouched forests, rivers, and wildlife of Dooars"
-        image="/images/home_fleet.png" 
+        image="/images/pkg_dooars_forest.jpg" 
       />
 
       <section className="py-24 bg-off-white">

@@ -47,7 +47,7 @@ export default async function PackageDetailPage({ params }: { params: Promise<{ 
                   </div>
                 </div>
                 
-                <p className="text-lg text-mountain-gray leading-relaxed mb-8">
+                <p className="text-lg text-mountain-gray leading-relaxed mb-8 whitespace-pre-wrap">
                   {pkg.longDescription || pkg.description}
                 </p>
 

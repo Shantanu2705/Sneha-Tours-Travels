@@ -1,4 +1,4 @@
-export interface TourPackage {
+﻿export interface TourPackage {
   id: string;
   title: string;
   duration: string;
@@ -8,229 +8,262 @@ export interface TourPackage {
   longDescription?: string;
   highlights: string[];
   itinerary?: { day: number; title: string; description: string }[];
-  category: 'Sikkim' | 'Darjeeling';
+  category: 'Sikkim' | 'Darjeeling' | 'Dooars';
 }
 
 export const packages: TourPackage[] = [
   {
-    id: 'gangtok-03nights',
-    title: 'Gangtok 03Nights',
-    duration: '03 Nights / 04 Days',
-    location: 'Gangtok',
-    image: '/images/dest_gangtok.png',
-    description: 'A perfect short getaway to the capital of Sikkim, exploring monasteries, lakes, and local culture.',
-    longDescription: 'Gangtok the capital city of Sikkim state in North Eastern Himalayan part of India settled at an altitude of 5600ft. The name GANGTOK means ``place on the hilltop" in local Bhutia language. The area of city Started from Ranipool at bottom up to the former Royal palace on a ridge top approx 15km area, Gangtok is clean and pollution free hill station with mix of traditional and modern hospitality and cosmopolitan outlook with safe and friendly care and guidance of administration local peoples are very polite and hospitable variety of Buddhism culture can be feel in and around of Gangtok, picturesque view of nature and excellent climate is another attraction of this place.',
-    highlights: ['Baba Mandir', 'Tsomgo Lake', 'Gangtok Local Sightseeing'],
-    itinerary: [
-      {
-        day: 1,
-        title: 'Welcome at Gangtok',
-        description: 'Welcome at New Jalpaiguri Rly Station/Bagdogra Airport & drive to Gangtok (135km, approx 4.30hrs hill drive) crossing through beautiful Mahananda wild life sanctuary, from the foot hill point `Sevoke’ you will feel the thrill of hilly drive in accompany of river Teesta along with the road. While reach at ``Rangpo’’ the entrance point of Sikkim state, take a tea break at Rangpo and proceed to Gangtok with enjoying the scenic view of steep cultivation and tiny village of Sikkim’s own identity. On arrival at Gangtok the capital of Sikkim check in at hotel, overnight relax at hotel.'
-      },
-      {
-        day: 2,
-        title: 'In Gangtok',
-        description: 'After breakfast start city tour of Gangtok covering Banjhakri Waterfall, Do-Drul Chorten (Buddha Stupa), Institute of Tibetology, Flower show, Sikkim cottage industry, and Inchey Monastery Ganesh tok, back to hotel. Evening free for shopping or walking tour in M.G.Marg area, over night at hotel'
-      },
-      {
-        day: 3,
-        title: 'Excursion to Tsomgo Lake & Baba Mandir',
-        description: 'After breakfast around 9.00A.M start for day excursion trip to Tsomgo Lake (45 km hill drive) at an altitude of 12,400ft, the lake is almost 01km long and 15 meters depth. The lake is considered sacred by the local people, you can take photograph at the backdrop of lake also can enjoy a ride on the back of Yak, next go to Tukla at a distance of 18 Km from the Lake for visit Baba Mandir (the shrine in memory of disappeared Indian army personal Baba Harbhajan Singh) and back to Gangtok. Evening free over night at hotel'
-      },
-      {
-        day: 4,
-        title: 'Back to Home',
-        description: 'Morning free for packing after breakfast transfer to New Jalpaiguri Rly Station or Bagdogra Airport for your return journey'
-      }
-    ],
-    category: 'Sikkim'
-  },
-  {
-    id: 'pelling-gangtok-darjeeling-kalimpong',
-    title: 'Pelling Gangtok Darjeeling Kalimpong',
-    duration: '05 Nights / 06 Days',
-    location: 'Pelling • Gangtok • Darjeeling • Kalimpong',
-    image: '/images/dest_pelling.png',
-    description: 'The ultimate Himalayan journey covering the major gems of North Bengal and Sikkim.',
-    longDescription: 'Pelling is a small hill station settled at an altitude of 7,200ft on a hilltop of eastern Himalayas region in west Sikkim, this place is one of the closest Motorable points to Himalayan peak’s. Pelling also a combination of heritage past and modern future as the 1st and 2nd capital of Sikkim Royal dynasty been settled near this place.\n\nGangtok the capital city of Sikkim state in North Eastern Himalayan part of India settled at an altitude of 5600ft. The name GANGTOK means ``place on the hilltop" in local Bhutia language. The area of city Started from Ranipool at bottom up to the former Royal palace on a ridge top approx 15km area.\n\nDarjeeling is a well known tourist destination, settled at an altitude of 6,710 ft on the eastern Himalayan Hill of India in the state of West Bengal. It is famous in the world for its unique climate condition, charming flavor of world’s best tea leaf producing and eye soothing green valleys;\n\nKalimpong is a peace full quite hill station in the lap of Eastern Himalayan region of India in West Bengal State. The town is settled at an altitude of 4,100ft on the ridge of hill like a saddle in between two hill points Delo and Durpin.',
-    highlights: ['Kanchenjunga Views', 'Tea Estates', 'Monasteries', 'Alpine Lakes'],
-    itinerary: [
-      {
-        day: 1,
-        title: 'Welcome on Arrival and drive to Pelling',
-        description: 'Welcome at New Jalpaiguri Rail Station or Bagdogra Airport and drive to Pelling a calm & quite hill station in West Sikkim (140km approx 05hrs hill drive) you will enjoy the drive crossing through beautiful Mahananda wild life sanctuary, from the foot hill point `Sevoke’ you will feel the thrill of hilly drive in accompany of River Teesta up to Sikkim & West Bengal border ‘Malli’ here another hill River’ Rangeet’ will welcome you and continue with you like a road guide. On arrival at Pelling check-in at hotel and free for relax'
-      },
-      {
-        day: 2,
-        title: 'Pelling sightseeing and drive to Gangtok',
-        description: 'At morning be ready and complete your breakfast then start Pelling sightseeing covering Darap Village, Rimbi Waterfalls, Khangchendzonga waterfalls , Khechupelri lake, subsequent drive to Gangtok ‘The capital city of Sikkim’ (130km approx 4.30hrs hill drive) at West Sikkim, via Rabangla,Singtam. On arrival at Gangtok Check-in at hotel and stay in relax.'
-      },
-      {
-        day: 3,
-        title: 'Day Excursion to Tsomgo Lake & Baba Mandir',
-        description: 'After breakfast around 9.00A.M start for day excursion trip to Tsomgo Lake (45 km hill drive) at an altitude of 12,400ft, the lake is almost 01km long and 15 meters depth. The lake is considered sacred by the local people, you can take photograph at the backdrop of lake also can enjoy a ride on the back of Yak, next go to Tukla at a distance of 18 Km from the Lake for visit Baba Mandir (the shrine in memory of disappeared Indian army personal Baba Harbahajan Singh) and back to Gangtok. Evening free over night at hotel'
-      },
-      {
-        day: 4,
-        title: 'Gangtok to Darjeeling & Darjeeling Sightseeing',
-        description: 'After breakfast you will be pick up as per time and drive to Darjeeling the world famous hill station In West Bengal via Peshok road (98km approx 3.30hrs hill drive) On arrival Check in at hotel, subsequent proceed for visit covering Himalayan Mountaineering Institute & Padwaja Naidu Zoological Park (both closed on Thursday) Tenzing Rock, Tibetan Self Help handicraft Centre (closed on Sunday), happy valley Tea Garden (outer view), Peace Pagoda and back to hotel and free for walking tour or shopping at the ‘Mall’ area ,overnight stay at hotel.'
-      },
-      {
-        day: 5,
-        title: 'Visit Tiger hill & drive to Kalimpong & Sightseeing in Kalimpong.',
-        description: 'Be ready early morning, at 04.00A.M you will be pick up for visit Tiger Hill (24km hill drive) at an altitude of 8500ft for spectacular view of color full sunrise over Mt. Khangchendzonga, on way back visit Ghoom Monastery, Batasia loop. After breakfast transfer to Kalimpong after check-in at hotel and proceed for sightseeing visit of Dello hill top, Orchid Nursery, Dr. Grahams Homes Campus, Mangal Dham temple, and Nature Interpretation Center and back to hotel & relax.'
-      },
-      {
-        day: 6,
-        title: 'Back to Home',
-        description: 'Morning free for packing after breakfast transfer to New Jalpaiguri Rly Station or Bagdogra Airport (78km approx 03hrs hill drive) for your return journey'
-      }
-    ],
-    category: 'Sikkim'
-  },
-  {
-    id: 'pelling-gangtok',
-    title: 'Pelling Gangtok',
-    duration: '05 Nights / 06 Days',
-    location: 'Pelling • Gangtok',
+    id: 'north-sikkim-4n5d',
+    title: 'North Sikkim Adventure',
+    duration: '4 Nights / 5 Days',
+    location: 'Gangtok • Lachung • Yumthang Valley',
     image: '/images/pkg_sikkim.png',
-    description: 'A beautiful journey through the majestic landscapes of Pelling and the vibrant culture of Gangtok.',
-    longDescription: 'Pelling is a small hill station settled at an altitude of 7,200ft on a hill top of eastern Himalaya region in west Sikkim, this place is one of the closest Motorable point to Himalayan peak’s . Pelling also a combination of heritage past and modern future as the 1st and 2nd capital of Sikkim Royal dynasty been settled near this place.\n\nGangtok the capital city of Sikkim state in North Eastern Himalayan part of India settled at an altitude of 5600ft. The name GANGTOK means ``place on the hilltop" in local Bhutia language. The area of city Started from Ranipool at bottom up to the former Royal palace on a ridge top approx 15km area.',
-    highlights: ['Kanchenjunga Waterfalls', 'Tsomgo Lake', 'Monasteries'],
+    description: 'Experience the breathtaking beauty of North Sikkim — from Gangtok to the serene landscapes of Lachung and Yumthang Valley.',
+    longDescription: 'Experience the breathtaking beauty of North Sikkim with Sneha Tours & Travels — from the vibrant mountain town of Gangtok to the serene landscapes of Lachung and the stunning Yumthang Valley. A perfect Himalayan escape filled with snow-capped mountains, scenic valleys, winding roads and unforgettable mountain experiences. \n\nPackage Cost (Per Head):\n8 Persons – ₹9,500\n6 Persons – ₹9,999\n4 Persons – ₹12,500\n\nImportant Note: Zero Point is available at an additional cost and is subject to weather conditions, permit availability and applicable local regulations.',
+    highlights: ['Gangtok', 'Lachung', 'Yumthang Valley Excursion'],
     itinerary: [
       {
         day: 1,
-        title: 'Welcome and drive to Pelling',
-        description: 'Welcome at New Jalpaiguri Rail Station or Bagdogra Airport and drive to Pelling a calm & quite hill station in West Sikkim (140km approx 05hrs hill drive) you will enjoy the drive crossing through beautiful Mahananda wild life sanctuary from the foot hill point `Sevoke’ you will feel the thrill of hilly drive in accompany of River Teesta up to Sikkim & West Bengal border ‘Malli’ here another hill River ‘Rangeet’ will welcome you and continue with you. On arrival at Pelling check-in at hotel and free for relax'
+        title: 'NJP / Bagdogra Airport to Gangtok',
+        description: 'Pickup from NJP Railway Station / Bagdogra Airport and proceed towards the beautiful Himalayan town of Gangtok. Upon arrival, check in to your hotel and relax after the journey. Spend the evening at leisure and enjoy the pleasant mountain atmosphere.'
       },
       {
         day: 2,
-        title: 'visit in Pelling',
-        description: 'After breakfast start a full day sightseeing in Pelling with the oldest Monastery in Sikkim Pemayangtse Monastery, Rimbi waterfall, and Kanchenjunga waterfall, Khecheopalri Lake (it is believed that birds do not permit even a single leaf to float on the lake ) Darap village ( famous for its Alpine Cheese Making ) and Changey waterfalls Also can enjoy sky walk (by own Cost) at Sanga choling & back to hotel . Evening relax at your own style, overnight at hotel'
+        title: 'Gangtok to Lachung – Scenic Mountain Journey',
+        description: 'After breakfast, check out from Gangtok and proceed towards the picturesque mountain village of Lachung. Enjoy the scenic Himalayan landscapes and beautiful on-road sightseeing along the way. Upon arrival at Lachung, check in to your hotel/homestay and relax amidst the peaceful mountain surroundings.'
       },
       {
         day: 3,
-        title: 'Drive to Gangtok',
-        description: 'At morning be ready after complete your breakfast and drive to Gangtok ‘The capital city of Sikkim’ (130km approx 4.30hrs hill drive) at West Sikkim via Rabang-la, Singtham. On arrival at Gangtok Check-in at hotel, rest of the time free for relax or enjoy waking tour & shopping at M.G Marg area, Overnight stay at hotel'
+        title: 'Yumthang Valley Excursion – Valley of Flowers',
+        description: 'After breakfast, proceed for an exciting excursion to the spectacular Yumthang Valley, popularly known as the “Valley of Flowers.” Surrounded by majestic Himalayan peaks, flowing rivers and beautiful mountain landscapes. Zero Point is optional. Return to Lachung after sightseeing.'
       },
       {
         day: 4,
-        title: 'visit in Gangtok',
-        description: 'After breakfast start for city tour , covering Tashi view Point , Banjakhri Waterfall, Do-Drul Chorten (Buddha Stupa), Institute of Tibetology, Flower show, Sikkim Handicrafts industry(Sunday closed), Inchey Monastery Ganesh tok, Hanuman tok also can enjoy Ropeway ride (by own cost) & back to hotel, over night at hotel'
+        title: 'Lachung to Gangtok',
+        description: 'After breakfast, check out from Lachung and drive back towards Gangtok, enjoying the scenic mountain landscapes along the way. Upon arrival in Gangtok, check in to your hotel and spend the rest of the day at leisure.'
       },
       {
         day: 5,
-        title: 'Excursion to Tsomgo Lake & Baba Mandir',
-        description: 'After breakfast around 9.00A.M start for day excursion trip to Tsomgo Lake (45 km hill drive) at an altitude of 12,400ft, the lake is almost 01km long and 15 meters depth. The lake is considered sacred by the local people, you can take photograph at the backdrop of lake also can enjoy a ride on the back of Yak, next go to Tukla at a distance of 18 Km from the Lake for visit Baba Mandir (the shrine in memory of disappeared Indian army personal Baba Harbhajan Singh) and back to Gangtok. Evening free over night at hotel'
-      },
-      {
-        day: 6,
-        title: 'Back to Home',
-        description: 'Morning free for packing after breakfast transfer to NewJalpaiguri Rly Station or Bagdogra Airport (135km, approx 4.30hrs hill drive) for your return journey'
+        title: 'Gangtok to NJP / Bagdogra – Farewell to Sikkim',
+        description: 'After breakfast, check out from the hotel and proceed towards NJP Railway Station / Bagdogra Airport for your onward journey.'
       }
     ],
     category: 'Sikkim'
   },
   {
-    id: 'darjeeling-to-gangtok',
-    title: 'Darjeeling to Gangtok',
-    duration: '04 Nights / 05 Days',
-    location: 'Darjeeling • Gangtok',
+    id: 'darjeeling-gangtok-escape',
+    title: 'Darjeeling & Gangtok Escape',
+    duration: '4 Nights / 5 Days',
+    location: 'Gangtok • Darjeeling',
     image: '/images/pkg_darjeeling.png',
-    description: 'Experience the best of both worlds with this comprehensive tour covering the tea gardens of Darjeeling and the vibrant capital of Sikkim.',
-    longDescription: 'Traveling from Darjeeling to Gangtok offers a scenic journey through the rolling hills, winding mountain roads, and charming towns of the Eastern Himalayas. Whether you\'re heading to Gangtok for its vibrant culture or returning to Darjeeling for its colonial charm, our Darjeeling and Gangtok taxi service ensures a smooth, comfortable, and hassle-free ride. Covering a distance of approximately 100 kilometers in about 4–5 hours, the route takes you through picturesque landscapes, tea gardens, and views of the Teesta River. With professional drivers, well-maintained vehicles, and flexible booking options, we make your intercity travel between Sikkim and West Bengal easy and enjoyable. Book your taxi today and experience the beauty of the Himalayas at your own pace.',
-    highlights: ['Tiger Hill Sunrise', 'Tsomgo Lake Excursion', 'Darjeeling Himalayan Railway'],
+    description: 'Experience the best of Gangtok and Darjeeling in one unforgettable Himalayan getaway.',
+    longDescription: 'Experience the best of Gangtok and Darjeeling in one unforgettable Himalayan getaway with Sneha Tours & Travels. From the serene waters of Tsomgo Lake and the majestic Baba Mandir to the breathtaking sunrise at Tiger Hill and the charming streets of Darjeeling, this journey brings together mountains, monasteries, lakes, forests and vibrant hill-town experiences.\n\nPackage Cost (Per Head):\n8 Persons – ₹9,250\n6 Persons – ₹9,900\n4 Persons – ₹12,250',
+    highlights: ['Tsomgo Lake', 'Tiger Hill Sunrise', 'Baba Mandir'],
     itinerary: [
       {
         day: 1,
-        title: 'Bagdogra/NJP –Darjeeling 93 kms 3 hours approx.',
-        description: 'Assistance at the airport/station on arrival and drive to Darjeeling. DARJEELING: Standing high in the Himalayas at an altitude of 2134m, ‘Dorje Ling’, or place of the Thunderbolt, offers breathtaking views of snow-capped mountain peaks, with the Kanchendzonga rising higher than all the others. Often referred to as the “Queen of the Hills”, it remains just as alluring with its tiny waterfalls, little villages and a narrow gauge railway track. Surrounded by World Famous Tea Gardens and snow capped mountains, Darjeeling remains one of the most exotic destinations. Graeme Westlake in his book ‘An introduction to hill stations on India’ refers to Darjeeling as having “A view Scarcely Unrivalled on Earth”. Overnight at hotel.'
+        title: 'NJP / Bagdogra to Gangtok – Welcome to the Hills',
+        description: 'Arrive at NJP Railway Station / Bagdogra Airport, where you will be picked up and transferred to the beautiful Himalayan capital of Gangtok. Upon arrival, check in to the hotel and relax.'
       },
       {
         day: 2,
-        title: 'Darjeeling',
-        description: 'Early morning visit Tiger Hill to see a beautiful sunrise and HimalayanRange like Kanchandzonga, Mount Everest etc. One can see the horizon changing colors just before sunrise and then the entire Himalayan range turn golden. It is truly a majestic sight and Ghoom Monastery which is oldest Monastery in the area which was built in 1875 and one can see the image of Mythey Buddha 15ft. height on the way back from Tiger Hill. Breakfast at the hotel and proceed for city tour visiting Himalayan Mountaineering Institute(closed on Thursday) which was started by Tenzing Norgay after he climbed Mt. Everest, Zoological Park(closed on Thursday), Tibetan Refugee Centre(closed on Sunday), Tenzing Rock, Gombu Rock and Tea Estate(from outside). Overnight at hotel.'
+        title: 'Tsomgo Lake & Baba Mandir – Himalayan Excursion',
+        description: 'After breakfast, proceed for an exciting excursion to Tsomgo Lake (Changu Lake), a magnificent high-altitude glacial lake surrounded by breathtaking Himalayan landscapes. Continue to Baba Mandir. Nathula Pass is optional.'
       },
       {
         day: 3,
-        title: 'Darjeeling – Gangtok 98 kms 4 hours approx.',
-        description: 'Breakfast at the hotel and drive to Gangtok GANGTOK: At an altitude of 1750m, Gangtok became the state capital in the mid 19th century and has undergone rapid development since then.The downtown area is dominated by huge government buildings decorated with traditional Buddhist symbols. Gangtok is also a resting ground for people traveling to North Sikkim. Surrounded by Monasteries and Orchids, Gangtok is truly a travellers delight. Overnight at hotel.'
+        title: 'Gangtok to Darjeeling – Lamahata • Ghoom • Mall Road',
+        description: 'After breakfast, check out and proceed towards Darjeeling. En route, visit Lamahata and Ghoom railway station. In the evening, visit the famous Mall Road.'
       },
       {
         day: 4,
-        title: 'Gangtok',
-        description: 'Breakfast at the hotel and full day excursion to Changu Lake which is 35 Kms from Gangtok at an altitude of 12,400 feet. The lake derives its waters from melting snows off the surrounding mountains Legends say that lamas could forecast the future by studying the color of the lake’s waters. Also visit Baba Mandir Overnight at hotel.'
+        title: 'Tiger Hill Sunrise & Darjeeling Local Sightseeing',
+        description: 'Start your morning with an early visit to Tiger Hill to witness the sunrise over Mt. Kanchenjunga. Return to visit Batasia Loop and Ghoom Monastery. Later, continue with Darjeeling local sightseeing covering HMI and Zoo.'
       },
       {
         day: 5,
-        title: 'Gangtok – Bagdogra/NJP 125 kms 4 hours approx.',
-        description: 'Breakfast at the hotel and drive to Bagdogra/NJP in time for flight/train to onward destination.'
-      }
-    ],
-    category: 'Sikkim'
-  },
-  {
-    id: 'darjeeling-03nights',
-    title: 'Darjeeling 03Nights',
-    duration: '03 Nights / 04 Days',
-    location: 'Darjeeling',
-    image: '/images/dest_darjeeling.png',
-    description: 'Immerse yourself in the Queen of the Hills with this dedicated Darjeeling tour.',
-    longDescription: 'Darjeeling is a well known tourist destination, settled at an altitude of 6,710 ft on the eastern Himalayan Hill of India in the state of West Bengal. It is famous in the world for its unique climate condition, charming flavor of world’s best tea leaf producing and eye soothing green valleys; Majestic Snow clad Mountains and an impression of British colonial past with color full life style and smiling hospitality of local peoples.',
-    highlights: ['Tiger Hill', 'Batasia Loop', 'Tea Estate Visit'],
-    itinerary: [
-      {
-        day: 1,
-        title: 'Welcome at Darjeeling',
-        description: 'Welcome on arrival at New Jalpaiguri Rly Station / Bagdogra Airport & transfer to Darjeeling at an altitude of 6700ft (75km, approx 3hrs hill Drive) via the pretty Hill Station Kurseong. Take a tea break at Kurseong and proceed through Hill cart road playing hide & seek along with very nostalgic Darjeeling Himalayan Railways. The narrow gauge (2ft width) “Toy train” track, passing over the station’s like Tung, Sonada and Ghoom and reach at one of the most magnificent hill resorts in the world, check in at hotel, Evening free for enjoy walking tour or pony ride at ‘Mall’ area or just see the color full lifestyle of local hill people’s in the mall area, Overnight at hotel.'
-      },
-      {
-        day: 2,
-        title: 'Full Day enjoy in Darjeeling',
-        description: 'Be ready early morning, at 04.00A.M you will be pick up for visit Tiger Hill (24km hill drive) at an altitude of 8500ft for spectacular view of color full sunrise over Mt. Khangchendzonga, on way back visit Ghoom Monastery, Batasia Loop . After breakfast visit Himalayan Mountaineering Institute, Padwaja Naidu Zoological Park (both are closed on Thursday) Tenzing Rock, Ropeway view point (Ropeway ride on own cost) Tibetans Refuge handicraft Centre (closed on Sunday), Happy valley Tea Garden (outer view), Lloyd Botanical garden, Peace Pagoda & back to hotel.'
-      },
-      {
-        day: 3,
-        title: 'Day Excursion to Mirik',
-        description: 'After breakfast go for a excursion trip to Mirik (40km hill drive) a picturesque place, nestled in Pine and Conifer forested hills at an altitude of 5800ft, it is famous for its Sumendu Lake; known as ‘Mirik Lake’ surrounded by orange orchards, cardamom plantations and tea estates .one can enjoy boating at lake. On return take a break at Indo- Nepal Border ‘Pashupati’ take a walk at in side of neighbor country Nepal and back to Darjeeling. Stay in Darjeeling'
-      },
-      {
-        day: 4,
-        title: 'Back to Home',
-        description: 'Morning free for packing, after breakfast transfer to New Jalpaiguri Rly Station or Bagdogra Airport for your return journey'
+        title: 'Darjeeling to NJP / Bagdogra – Optional Mirik Route',
+        description: 'After breakfast, check out from the hotel and proceed towards NJP / Bagdogra. Optional route via Mirik is available.'
       }
     ],
     category: 'Darjeeling'
   },
   {
-    id: 'welcome-darjeeling',
-    title: 'Welcome at Darjeeling',
-    duration: '03 Nights / 04 Days',
-    location: 'Darjeeling',
-    image: '/images/pkg_darjeeling.png',
-    description: 'A warm introduction to the heritage and natural beauty of Darjeeling.',
-    longDescription: 'Darjeeling is a well known tourist destination, settled at an altitude of 6,710 ft on the eastern Himalayan Hill of India in the state of West Bengal. It is famous in the world for its unique climate condition, charming flavor of world’s best tea leaf producing and eye soothing green valleys; Majestic Snow clad Mountains and an impression of British colonial past with color full life style and smiling hospitality of local peoples.\n\nGangtok the capital city of Sikkim state in North Eastern Himalayan part of India settled at an altitude of 5600ft. The name GANGTOK means ``place on the hilltop" in local Bhutia language. The area of city Started from Ranipool at bottom up to the former Royal palace on a ridge top approx 15km area, Gangtok is clean and pollution free hill station with mix of traditional and modern hospitality and cosmopolitan outlook.',
-    highlights: ['Peace Pagoda', 'Himalayan Mountaineering Institute', 'Local Markets'],
+    id: 'north-sikkim-5n6d',
+    title: 'North Sikkim Adventure',
+    duration: '5 Nights / 6 Days',
+    location: 'Gangtok • Lachung • Tsomgo Lake',
+    image: '/images/dest_gangtok.png',
+    description: 'A perfect Himalayan escape filled with snow-capped mountains, scenic valleys, and unforgettable experiences.',
+    longDescription: 'Experience the breathtaking beauty of North Sikkim — from the vibrant mountain town of Gangtok to the serene landscapes of Lachung, the stunning Yumthang Valley, and the iconic Tsomgo Lake & Baba Mandir.\n\nPackage Cost (Per Head):\n8 Persons – ₹12,000\n6 Persons – ₹13,500\n4 Persons – ₹15,500',
+    highlights: ['Gangtok', 'Lachung', 'Yumthang Valley', 'Tsomgo Lake'],
     itinerary: [
       {
         day: 1,
-        title: 'Welcome at Darjeeling',
-        description: 'Welcome on arrival at New Jalpaiguri Rly Station / Bagdogra Airport & transfer to Darjeeling at an altitude of 6700ft (75km, approx 3hrs hill Drive) via the pretty Hill Station Kurseong. Take a tea break at Kurseong and proceed through Hill cart road playing hide & seek along with very nostalgic Darjeeling Himalayan Railways. The narrow gauge (2ft width) “Toy train” track, passing over the station’s like Tung, Sonada and Ghoom and reach at one of the most magnificent hill resorts in the world, check in at hotel, Evening free for enjoy walking tour or pony ride at ‘Mall’ area or just see the color full lifestyle of local hill people’s in the mall area, Overnight at hotel.'
+        title: 'NJP / Bagdogra Airport to Gangtok',
+        description: 'Pickup and proceed towards Gangtok. Check in to your hotel and relax.'
       },
       {
         day: 2,
-        title: 'Visit in Darjeeling & Drive to Gangtok',
-        description: 'Be ready early morning, at 04.00A.M you will be pick up for visit Tiger Hill (24km hill drive) at an altitude of 8500ft for spectacular view of color full sunrise over Mt. Khangchendzonga, on way back visit Ghoom Monastery, Batasia Loop . After breakfast visit Himalayan Mountaineering Institute, ,Padwaja Naidu Zoological Park (both are closed on Thursday) Tenzing Rock subsequent transfer to Gangtok via Peshok road (98km approx 3.30hrs hill drive) on arrival at Gangtok check-in at hotel & free for relax.'
+        title: 'Gangtok to Lachung – On-Road Sightseeing',
+        description: 'After breakfast, check out and proceed towards the picturesque mountain village of Lachung. Enjoy scenic Himalayan landscapes along the way.'
       },
       {
         day: 3,
-        title: 'Day Excursion to Tsomgo Lake & Baba Mandir',
-        description: 'After breakfast around 9.00A.M start for day excursion trip to Tsomgo Lake (45 km hill drive) at an altitude of 12,400ft, the lake is almost 01km long and 15 meters depth. The lake is considered sacred by the local people, you can take photograph at the backdrop of lake also can enjoy a ride on the back of Yak, next go to Tukla at a distance of 18 Km from the Lake for visit Baba Mandir (the shrine in memory of disappeared Indian army personal Baba Harbhajan Singh) and back to Gangtok. Evening free over night at hotel'
+        title: 'Yumthang Valley Excursion',
+        description: 'Proceed for an exciting excursion to Yumthang Valley, the “Valley of Flowers.” Zero Point is optional.'
       },
       {
         day: 4,
-        title: 'Back to Home',
-        description: 'Morning free for packing after breakfast transfer to New Jalpaiguri Rly Station or Bagdogra Airport (135km, approx 4.30hrs hill drive)'
+        title: 'Lachung to Gangtok',
+        description: 'Drive back towards Gangtok, enjoying the scenic mountain landscapes. Rest of the day at leisure.'
+      },
+      {
+        day: 5,
+        title: 'Tsomgo Lake – Baba Mandir',
+        description: 'Proceed for an excursion to Tsomgo Lake and Baba Mandir. Nathula Pass is optional.'
+      },
+      {
+        day: 6,
+        title: 'Gangtok to NJP / Bagdogra Drop',
+        description: 'Check out and proceed towards NJP / Bagdogra Airport for your onward journey.'
+      }
+    ],
+    category: 'Sikkim'
+  },
+  {
+    id: 'darjeeling-offbeat-3n4d',
+    title: 'Darjeeling & Off-Beat Tour Package',
+    duration: '3 Nights / 4 Days',
+    location: 'Sittong • Tinchuley • Darjeeling',
+    image: '/images/dest_darjeeling.png',
+    description: 'Explore the Hills Beyond Darjeeling. Experience the perfect blend of iconic attractions and peaceful off-beat Himalayan villages.',
+    longDescription: 'Experience the perfect blend of Darjeeling’s iconic attractions and peaceful off-beat Himalayan villages. From lush orange orchards and scenic viewpoints to charming monasteries and the timeless beauty of the Queen of Hills, this journey is designed for an unforgettable mountain escape.\n\nPackage Cost (Per Head):\n2 Guests – ₹12,500\n4 Guests – ₹9,600\n6 Guests – ₹8,500\n8 Guests – ₹7,900',
+    highlights: ['Sittong', 'Tinchuley', 'Lamahata Eco Park', 'Mirik Lake'],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Transfer to Sittong',
+        description: 'Pickup from NJP and transfer to Sittong. Enjoy the lush orange orchards and peaceful surroundings.'
+      },
+      {
+        day: 2,
+        title: 'Sittong to Tinchuley',
+        description: 'Transfer to Tinchuley. Visit Namthing Lake, Ahaldara View Point, and Tinchuley Monastery.'
+      },
+      {
+        day: 3,
+        title: 'Tinchuley to Darjeeling',
+        description: 'Transfer to Darjeeling. En route visit Lamahata Eco Park. Enjoy Darjeeling local sightseeing including Batasia Loop and Ghum Monastery.'
+      },
+      {
+        day: 4,
+        title: 'Darjeeling to NJP via Mirik',
+        description: 'Check out and proceed to NJP, optionally visiting Pashupati Market and Mirik Lake on the way.'
+      }
+    ],
+    category: 'Darjeeling'
+  },
+  {
+    id: 'dooars-explorer-4n5d',
+    title: 'Dooars Explorer Package',
+    duration: '4 Nights / 5 Days',
+    location: 'Lataguri • Chilapata',
+    image: '/images/home_hero.png',
+    description: 'Forests, Hills, Rivers, and Wildlife. Experience the diverse beauty of Dooars.',
+    longDescription: 'Experience the diverse beauty of Dooars with Sneha Tours & Travels. From the lush forests of Gorumara and Chilapata to scenic rivers, tea gardens and Himalayan foothills, this itinerary combines nature, adventure and cultural exploration into one memorable getaway.\n\nPackage Cost (Per Head):\n8 Persons – ₹9,000\n6 Persons – ₹10,300\n4 Persons – ₹11,500',
+    highlights: ['Gorumara National Park', 'Chilapata Forest', 'Jaldhaka & Bindu'],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival in Dooars | NJP/Bagdogra to Lataguri',
+        description: 'Pickup and proceed towards Lataguri. Optional Jungle Safari at Gorumara National Park.'
+      },
+      {
+        day: 2,
+        title: 'The Best of Dooars | Samsing to Bindu',
+        description: 'Full-day sightseeing excursion through Samsing, Suntalekhola, Rocky Island, Jhalong, Jaldhaka, and Bindu.'
+      },
+      {
+        day: 3,
+        title: 'Hills & Forests | Lava & Rishop OR Buxa & Jayanti',
+        description: 'Choose between a day trip to the Himalayan destinations of Lava & Rishop OR the forested landscapes of Buxa, Jayanti & Rajabhatkhawa.'
+      },
+      {
+        day: 4,
+        title: 'Lataguri to Chilapata | Jungle Experience',
+        description: 'Transfer to Chilapata. Enjoy the peaceful forest surroundings with an optional Jungle Safari.'
+      },
+      {
+        day: 5,
+        title: 'Chilapata to Alipurduar via Cooch Behar',
+        description: 'Check out and visit the historic Cooch Behar Rajbari and Madan Mohan Temple before dropping at Alipurduar Railway Station.'
+      }
+    ],
+    category: 'Dooars'
+  },
+  {
+    id: 'dooars-tour-3n4d',
+    title: 'Dooars Tour Package',
+    duration: '3 Nights / 4 Days',
+    location: 'Lataguri • Dooars',
+    image: '/images/home_fleet.png',
+    description: 'Experience the untouched beauty of Dooars, where dense forests and flowing rivers create the perfect nature getaway.',
+    longDescription: 'Experience the untouched beauty of Dooars, where dense forests, flowing rivers, rolling tea gardens and picturesque hill landscapes come together to create the perfect nature getaway.\n\nPackage Cost (Per Head):\n8 Persons – ₹6,900\n6 Persons – ₹7,800\n4 Persons – ₹8,600',
+    highlights: ['Lataguri', 'Samsing & Suntalekhola', 'Buxa & Jayanti (Optional)'],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival in Dooars – Lataguri',
+        description: 'Pickup and proceed towards Lataguri. Relax amidst the peaceful surroundings. Optional jungle safari available.'
+      },
+      {
+        day: 2,
+        title: 'Exploring the Seven Wonders of Dooars',
+        description: 'Full-day sightseeing tour exploring Samsing, Suntalekhola, Rocky Island, Murti River, Jhalong, Jaldhaka, and Bindu.'
+      },
+      {
+        day: 3,
+        title: 'Hills & Forests – Lava/Rishop OR Buxa/Jayanti',
+        description: 'Day excursion to either Lava & Rishop for hill views, OR Buxa & Jayanti for wildlife and forests.'
+      },
+      {
+        day: 4,
+        title: 'Farewell to Dooars',
+        description: 'Check out from the resort and proceed to NJP / Bagdogra Airport for your onward journey.'
+      }
+    ],
+    category: 'Dooars'
+  },
+  {
+    id: 'darjeeling-hidden-3n4d',
+    title: 'Darjeeling Off-Beat Tour Package',
+    duration: '3 Nights / 4 Days',
+    location: 'Sittong • Tinchuley • Dawaipani',
+    image: '/images/home_cinematic.png',
+    description: 'Explore the Hidden Side of Darjeeling. Escape the crowded tourist trails and discover peaceful, scenic villages.',
+    longDescription: 'Escape the crowded tourist trails and discover the peaceful, scenic and unexplored side of the Eastern Himalayas. Explore charming mountain villages, lush forests, panoramic viewpoints and serene landscapes while enjoying warm local hospitality.\n\nPackage Cost (Per Head):\n4 Guests – ₹7,900\n6 Guests – ₹7,500\n8 Guests – ₹6,750',
+    highlights: ['Sittong', 'Tinchuley', 'Lamahata', 'Dawaipani'],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Arrival & Transfer to Sittong',
+        description: 'Pickup from NJP and transfer to Sittong. Wake up to breathtaking Himalayan sunrises and peaceful village life.'
+      },
+      {
+        day: 2,
+        title: 'Sittong to Tinchuley',
+        description: 'Transfer to Tinchuley. Enjoy scenic viewpoints and immerse yourself in the natural beauty.'
+      },
+      {
+        day: 3,
+        title: 'Tinchuley to Dawaipani',
+        description: 'Transfer to Dawaipani, exploring Tagda and Lamahata on the way. Reconnect with nature in this mountain retreat.'
+      },
+      {
+        day: 4,
+        title: 'Departure',
+        description: 'Check out and proceed to NJP Railway Station.'
       }
     ],
     category: 'Darjeeling'

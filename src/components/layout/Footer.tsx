@@ -53,7 +53,8 @@ export function Footer() {
             <ul className="space-y-4">
               {[
                 { name: 'Sikkim Tour Package', href: '/sikkim-tour-package' },
-                { name: 'Darjeeling Tour Package', href: '/darjeeling-tour-package' }
+                { name: 'Darjeeling Tour Package', href: '/darjeeling-tour-package' },
+                { name: 'Dooars Tour Package', href: '/dooars-tour-package' }
               ].map((item) => (
                 <li key={item.name}>
                   <Link href={item.href} className="text-gray-300 hover:text-accent transition-colors flex items-center group">

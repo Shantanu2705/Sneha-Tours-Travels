@@ -30,6 +30,11 @@ const navLinks = [
     subLinks: packages.filter(p => p.category === 'Darjeeling').map(p => ({ name: p.title, href: `/packages/${p.id}` }))
   },
   { 
+    name: 'Dooars Tour Package', 
+    href: '/dooars-tour-package',
+    subLinks: packages.filter(p => p.category === 'Dooars').map(p => ({ name: p.title, href: `/packages/${p.id}` }))
+  },
+  { 
     name: 'Blog', 
     href: '/blog',
     subLinks: blogPosts.map(b => ({ name: b.title, href: `/blog/${b.id}` }))
